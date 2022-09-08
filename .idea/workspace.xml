@@ -1,55 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="674b270f-224c-42b5-8a65-2562bdd17ca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/freemarker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/bg/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/books2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/cookie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/css/freemarker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/employees.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/employees2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/images/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/query.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework47.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson46/BookModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson46/BookState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson46/DataModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson46/EmployeeModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson46/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson46/Lesson46Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson46/Lesson47Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson46/UserFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/BasicServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/ContentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/Cookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/ResponseCodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/RouteHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/freemarker.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gson-2.8.9.jar" afterDir="false" />
+    <list default="true" id="674b270f-224c-42b5-8a65-2562bdd17ca6" name="Changes" comment="recreated project, added fixes for take/return book">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson46/Lesson46Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson46/Lesson46Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson46/Lesson47Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson46/Lesson47Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +66,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662469586530</updated>
     </task>
+    <task id="LOCAL-00001" summary="recreated project, added fixes for take/return book">
+      <created>1662623074471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662623074471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -120,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="recreated project, added fixes for take/return book" />
+    <option name="LAST_COMMIT_MESSAGE" value="recreated project, added fixes for take/return book" />
   </component>
 </project>

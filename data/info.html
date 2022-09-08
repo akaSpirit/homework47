@@ -13,17 +13,17 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="card-group pt-5">
-    <#list books as book>
+<#if params??>
+<div class="card" style="width: 24rem;">
     <div class="card">
-        <img src="images/${book.id}.jpg" class="card-img-top" alt="${book.bookName}">
+        <img src="images/${book.id}.jpg" class="card-img-top" alt="${book.id}">
         <div class="card-body">
             <h5 class="card-title">${book.bookName} by ${book.authorName}</h5>
             <p class="card-text">${book.info}</p>
             <a href="/books" class="btn btn-dark">Return to books list</a>
         </div>
     </div>
-    </#list>
 </div>
+</#if>
 </body>
 </html>

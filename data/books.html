@@ -25,22 +25,21 @@
             <th scope="col">Actions</th>
         </tr>
         </thead>
-
         <tbody>
             <#list books as book>
             <tr>
             <th scope="row">${book?counter}</th>
             <td>${book.bookName}</td>
             <td>${book.authorName}</td>
-            <#if book.bookState == "NOT_AVAILABLE">
-                <td>${book.getCurrentReader()}</td>
-                <td><a href="/info" class="btn btn-light">Info</a></td>
-            <#else>
+            <#if book.bookState == "AVAILABLE">
                 <td>Available</td>
+                <td><a href="/info?value=${book.id}" class="btn btn-light">Info</a></td>
                 <form action="/books" method="post">
-                    <td><a href="/info" class="btn btn-light">Info</a></td>
                     <td><button name="take" value="${book.id}" type="submit" class="btn btn-light">Take</button></td>
                 </form>
+            <#else>
+                <td>${book.getCurrentReader()}</td>
+                <td><a href="/info?value=${book.id}" class="btn btn-light">Info</a></td>
             </#if>
             </tr>
             </#list>

@@ -10,7 +10,6 @@ import java.util.Map;
 public class Lesson47Server extends Lesson46Server{
     public Lesson47Server(String host, int port) throws IOException {
         super(host, port);
-        registerGet("/info", this::infoHandler);
         registerGet("/query", this::handleQueryRequest);
     }
 
@@ -21,10 +20,6 @@ public class Lesson47Server extends Lesson46Server{
         Map<String, Object> data = new HashMap<>();
         data.put("params", params);
         renderTemplate(exchange, "query.ftl", data);
-    }
-
-    private void infoHandler(HttpExchange exchange) {
-        renderTemplate(exchange, "info.html", new DataModel());
     }
 
 }

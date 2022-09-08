@@ -120,7 +120,7 @@
 <div class="container">
     <form action="/profile" method="post">
     <table class="table table-striped table-dark">
-        <tbody>
+    <tbody>
 <tr>
     <th scope="col">Читает сейчас</th>
     <th scope="col">Action</th>
@@ -129,17 +129,14 @@
 <#list getListNowBooks() as book>
 <tr>
     <td>'${book.bookName}' by ${book.authorName}</td>
-
     <td><button name="return" value="${book.id}" type="submit" class="btn btn-light">Return book</button></td>
-
 </#list>
 </#if>
-
 </tr>
 </tbody>
 </table>
     </form>
-</div>
+    </div>
 
 </body>
 </html>

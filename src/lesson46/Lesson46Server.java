@@ -30,7 +30,7 @@ public class Lesson46Server extends BasicServer {
         registerGet("/books", this::bookHandler);
         registerPost("/books", this::bookPost);
 
-//        registerGet("/info", this::infoHandler);
+        registerGet("/info", this::infoHandler);
         registerGet("/employees", this::employeesHandler);
         registerGet("/employee", this::employeeHandler);
 
@@ -60,10 +60,10 @@ public class Lesson46Server extends BasicServer {
             if (cookies.containsKey(id)) {
                 String email = cookies.get(id);
                 int bookID = Integer.parseInt(map.get("take"));
-                    if (dm.getEmployees().get(email).getReadNowID().size()<2) {
-                        dm.getEmployees().get(email).getReadNowID().add(bookID);
-                        dm.getBooks().get(bookID).getCurrentReaders().add(email);
-                        dm.getBooks().get(bookID).setBookState(BookState.NOT_AVAILABLE);
+                if (dm.getEmployees().get(email).getReadNowID().size() < 2) {
+                    dm.getEmployees().get(email).getReadNowID().add(bookID);
+                    dm.getBooks().get(bookID).getCurrentReaders().add(email);
+                    dm.getBooks().get(bookID).setBookState(BookState.NOT_AVAILABLE);
                 }
             }
         }
@@ -72,9 +72,20 @@ public class Lesson46Server extends BasicServer {
         redirect303(exchange, "/books");
     }
 
-//    private void infoHandler(HttpExchange exchange) {
-//        renderTemplate(exchange, "info.html", new DataModel());
-//    }
+    private void infoHandler(HttpExchange exchange) {
+        String query = getQueryParams(exchange);
+        Map<String, String> params = Utils.parseUrlEncoded(query, "&");
+
+        Map<String, Object> data = new HashMap<>();
+
+        if(params.containsKey("value")){
+            data.put("params", params);
+            int queryID = Integer.parseInt(params.get("value"));
+            var queryBook = dm.getBooks().get(queryID);
+            data.put("book", queryBook);
+        renderTemplate(exchange, "info.html", data);
+        }
+    }
 
     public void loginPost(HttpExchange exchange) {
         String raw = getBody(exchange);
