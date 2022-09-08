@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="674b270f-224c-42b5-8a65-2562bdd17ca6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/freemarker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bg/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/books2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cookie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/css/freemarker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/employees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/employees2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/query.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework47.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson46/BookModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson46/BookState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson46/DataModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson46/EmployeeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson46/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson46/Lesson46Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson46/Lesson47Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson46/UserFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/BasicServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/ContentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/ResponseCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/RouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/freemarker.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gson-2.8.9.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EObTSx7LWaY2tLnveLKbBNs2Nc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="homework47" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="674b270f-224c-42b5-8a65-2562bdd17ca6" name="Changes" comment="" />
+      <created>1662469586530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662469586530</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ftl" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+{
+  "marco@gmail.com": {
+    "firstName": "Marco",
+    "lastName": "Polo",
+    "email": "marco@gmail.com",
+    "username": "marco",
+    "password": "marco",
+    "readNowID": [
+      0
+    ],
+    "readPastID": [
+      2,
+      3
+    ]
+  },
+  "winston@gmail.com": {
+    "firstName": "Winston",
+    "lastName": "Duarte",
+    "email": "winston@gmail.com",
+    "username": "winston",
+    "password": "winston",
+    "readNowID": [
+      1
+    ],
+    "readPastID": [
+      0,
+      3
+    ]
+  },
+  "amos@gmail.com": {
+    "firstName": "Amos",
+    "lastName": "Burton",
+    "email": "amos@gmail.com",
+    "username": "amos",
+    "password": "amos",
+    "readNowID": [],
+    "readPastID": [
+      0,
+      1
+    ]
+  },
+  "asd@asd": {
+    "firstName": "asd",
+    "lastName": "asd",
+    "email": "asd@asd",
+    "username": "asd",
+    "password": "asd",
+    "readNowID": [
+      2,
+      3
+    ],
+    "readPastID": [
+      0
+    ]
+  }
+}

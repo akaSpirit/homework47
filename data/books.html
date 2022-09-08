@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container pt-5">
+    <table class="table table-striped table-dark">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Book</th>
+            <th scope="col">Author</th>
+            <th scope="col">Book state/Who read</th>
+            <th scope="col">Info</th>
+            <th scope="col">Actions</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <#list books as book>
+            <tr>
+            <th scope="row">${book?counter}</th>
+            <td>${book.bookName}</td>
+            <td>${book.authorName}</td>
+            <#if book.bookState == "NOT_AVAILABLE">
+                <td>${book.getCurrentReader()}</td>
+                <td><a href="/info" class="btn btn-light">Info</a></td>
+            <#else>
+                <td>Available</td>
+                <form action="/books" method="post">
+                    <td><a href="/info" class="btn btn-light">Info</a></td>
+                    <td><button name="take" value="${book.id}" type="submit" class="btn btn-light">Take</button></td>
+                </form>
+            </#if>
+            </tr>
+            </#list>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

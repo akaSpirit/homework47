@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Freemarker Sample Page</title>
+</head>
+<body>
+    <div style="margin-left: 20px;">
+        <#if cookies??>
+            <ul>
+                <#list cookies as name, value>
+                    <li> <b>${name}</b> - <span style="background-color: lightgray;">${value}</span> </li>
+                </#list>
+            </ul>
+        </#if>
+    <button type="submit" class="btn btn-light">Delete cookie</button>
+    </div>
+
+</body>
+</html>
