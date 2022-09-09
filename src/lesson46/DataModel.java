@@ -84,8 +84,8 @@ public class DataModel {
         private String email;
         private String username;
         private String password;
-        private List<Integer> readNowID;
-        private List<Integer> readPastID;
+        private List<Integer> readNowID = new ArrayList<>();
+        private List<Integer> readPastID = new ArrayList<>();
 
         public Employee(String email, String password) {
             this.email = email;
@@ -148,10 +148,12 @@ public class DataModel {
         public String getReadPastBooks() {
             List<DataModel.Book> books = FileService.readBooks();
             String fmt = "";
-            for (int i = 0; i < readPastID.size(); i++) {
-                fmt += String.format("'%s' by %s. ", books.get(readPastID.get(i)).bookName, books.get(readPastID.get(i)).authorName);
+            if(readPastID.size() != 0) {
+                for (int i = 0; i < readPastID.size(); i++) {
+                    fmt += String.format("'%s' by %s. ", books.get(readPastID.get(i)).bookName, books.get(readPastID.get(i)).authorName);
+                }
             }
-            return fmt;
+                return fmt;
         }
 
         public List<DataModel.Book> getListNowBooks() {

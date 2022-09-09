@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="674b270f-224c-42b5-8a65-2562bdd17ca6" name="Changes" comment="completed /info and /profile handlers">
+    <list default="true" id="674b270f-224c-42b5-8a65-2562bdd17ca6" name="Changes" comment="added books, fix info.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/books2.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/books2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/employees2.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/employees2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson46/DataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson46/DataModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662641324078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added books, fix info.html">
+      <created>1662699461232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662699461232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -94,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recreated project, added fixes for take/return book" />
     <MESSAGE value="completed /info and /profile handlers" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed /info and /profile handlers" />
+    <MESSAGE value="added books, fix info.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="added books, fix info.html" />
   </component>
 </project>

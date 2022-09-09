@@ -11,7 +11,8 @@
     "pastReaders": [
       "winston@gmail.com",
       "amos@gmail.com",
-      "asd@asd"
+      "asd@asd",
+      "marco@gmail.com"
     ]
   },
   {
@@ -98,9 +99,11 @@
     "id": 8,
     "bookName": "In Search of Lost Time",
     "authorName": "Marcel Proust",
-    "bookState": "AVAILABLE",
+    "bookState": "NOT_AVAILABLE",
     "info": "Swann\u0027s Way, the first part of A la recherche de temps perdu, Marcel Proust\u0027s seven-part cycle, was published in 1913.",
-    "currentReaders": [],
+    "currentReaders": [
+      "s@s"
+    ],
     "pastReaders": []
   },
   {

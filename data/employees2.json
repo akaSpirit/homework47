@@ -6,12 +6,13 @@
     "username": "marco",
     "password": "marco",
     "readNowID": [
-      0,
-      7
+      7,
+      0
     ],
     "readPastID": [
       2,
-      3
+      3,
+      0
     ]
   },
   "winston@gmail.com": {
@@ -56,5 +57,16 @@
     "readPastID": [
       0
     ]
+  },
+  "s@s": {
+    "firstName": "sss",
+    "lastName": "sss",
+    "email": "s@s",
+    "username": "sss",
+    "password": "sss",
+    "readNowID": [
+      8
+    ],
+    "readPastID": []
   }
 }
