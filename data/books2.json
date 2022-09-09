@@ -58,9 +58,60 @@
     "id": 4,
     "bookName": "Madame Bovary",
     "authorName": "Gustave Flaubert",
-    "bookState": "AVAILABLE",
+    "bookState": "NOT_AVAILABLE",
     "info": "For daring to peer into the heart of an adulteress and enumerate its contents with profound dispassion, the author of Madame Bovary was tried for offenses against morality and religion.",
+    "currentReaders": [
+      "amos@gmail.com"
+    ],
+    "pastReaders": []
+  },
+  {
+    "id": 5,
+    "bookName": "Middlemarch",
+    "authorName": "George Eliot",
+    "bookState": "AVAILABLE",
+    "info": "Middlemarch: A Study of Provincial Life is a novel by George Eliot, the pen name of Mary Anne Evans, later Marian Evans.",
     "currentReaders": [],
+    "pastReaders": []
+  },
+  {
+    "id": 6,
+    "bookName": "The Adventures of Huckleberry Finn",
+    "authorName": "Mark Twain",
+    "bookState": "AVAILABLE",
+    "info": "Revered by all of the town\u0027s children and dreaded by all of its mothers, Huckleberry Finn is indisputably the most appealing child-hero in American literature.",
+    "currentReaders": [],
+    "pastReaders": []
+  },
+  {
+    "id": 7,
+    "bookName": "The Stories of Anton Chekhov",
+    "authorName": "Anton Chekhov",
+    "bookState": "NOT_AVAILABLE",
+    "info": "Anton Pavlovich Chekhov was a Russian short-story writer, playwright and physician, considered to be one of the greatest short-story writers in the history of world literature.",
+    "currentReaders": [
+      "marco@gmail.com"
+    ],
+    "pastReaders": []
+  },
+  {
+    "id": 8,
+    "bookName": "In Search of Lost Time",
+    "authorName": "Marcel Proust",
+    "bookState": "AVAILABLE",
+    "info": "Swann\u0027s Way, the first part of A la recherche de temps perdu, Marcel Proust\u0027s seven-part cycle, was published in 1913.",
+    "currentReaders": [],
+    "pastReaders": []
+  },
+  {
+    "id": 9,
+    "bookName": "Hamlet",
+    "authorName": "William Shakespeare",
+    "bookState": "NOT_AVAILABLE",
+    "info": "The Tragedy of Hamlet, Prince of Denmark, or more simply Hamlet, is a tragedy by William Shakespeare, believed to have been written between 1599 and 1601.",
+    "currentReaders": [
+      "winston@gmail.com"
+    ],
     "pastReaders": []
   }
 ]

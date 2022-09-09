@@ -6,7 +6,8 @@
     "username": "marco",
     "password": "marco",
     "readNowID": [
-      0
+      0,
+      7
     ],
     "readPastID": [
       2,
@@ -20,7 +21,8 @@
     "username": "winston",
     "password": "winston",
     "readNowID": [
-      1
+      1,
+      9
     ],
     "readPastID": [
       0,
@@ -33,7 +35,9 @@
     "email": "amos@gmail.com",
     "username": "amos",
     "password": "amos",
-    "readNowID": [],
+    "readNowID": [
+      4
+    ],
     "readPastID": [
       0,
       1

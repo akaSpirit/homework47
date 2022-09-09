@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="674b270f-224c-42b5-8a65-2562bdd17ca6" name="Changes" comment="recreated project, added fixes for take/return book">
+    <list default="true" id="674b270f-224c-42b5-8a65-2562bdd17ca6" name="Changes" comment="completed /info and /profile handlers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson46/Lesson46Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson46/Lesson46Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson46/Lesson47Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson46/Lesson47Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/books2.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/books2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/employees2.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/employees2.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662623074471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed /info and /profile handlers">
+      <created>1662641324078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662641324078</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -92,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recreated project, added fixes for take/return book" />
-    <option name="LAST_COMMIT_MESSAGE" value="recreated project, added fixes for take/return book" />
+    <MESSAGE value="completed /info and /profile handlers" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed /info and /profile handlers" />
   </component>
 </project>
